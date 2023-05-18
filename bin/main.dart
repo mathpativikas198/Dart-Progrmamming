@@ -1,18 +1,26 @@
 void main() {
-//   print("GOOOD EVENING! Hello Dart");
+  // Builtin Data -types
+  // int, double, String, bool, var, list, set, map, list
+  int items = 10;
+  double price = 44.23;
+  print(items);
+  print(price);
 
-//Variable Name and Rules
-//Variable is an identifier
-// Valid varible name
-  var name = "1234";
-  var f_name = "dsa";
+  String Country = "India";
+  print(Country);
 
-  // no space in varibale name
-  var soni12 = "sas";
-  var $dadu = "dsa";
+  bool isCompleted = true;
+  print(isCompleted);
 
-  // Invalid variable name
-  //cant start variable name with numbers and reserved keywords
-// Printing variable
-  print(name);
+  var quantity = 100; // var works dynamically
+  print(quantity);
+  print(quantity.runtimeType);
+
+  var quantit = 10.45; // var works dynamically
+  print(quantit);
+  print(quantit.runtimeType);
+
+  var quant = true; // var works dynamically
+  print(quant);
+  print(quant.runtimeType); // To check Datatype
 }
