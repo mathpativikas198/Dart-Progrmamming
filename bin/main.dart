@@ -1,26 +1,28 @@
 void main() {
-  // Builtin Data -types
-  // int, double, String, bool, var, list, set, map, list
-  int items = 10;
-  double price = 44.23;
-  print(items);
-  print(price);
+// #Airthmatic Operators
+  var a = 10;
+  var b = 20;
+  var c = 30;
+  var d = 6;
 
-  String Country = "India";
-  print(Country);
+  // print(a + b);
+  // print(c - b);
+  // print(a * b);
+  // print(c / d);
+  // print(a / d);
+  // print(a ~/ d); //this gives only integer value
+  // print(a % d);
 
-  bool isCompleted = true;
-  print(isCompleted);
+  //#Prefix and Postfix Increament Operator
 
-  var quantity = 100; // var works dynamically
-  print(quantity);
-  print(quantity.runtimeType);
+  // Equality and Relational Operator
+  var e = 100;
+  var f = 200;
 
-  var quantit = 10.45; // var works dynamically
-  print(quantit);
-  print(quantit.runtimeType);
-
-  var quant = true; // var works dynamically
-  print(quant);
-  print(quant.runtimeType); // To check Datatype
+  print(e == f);
+  print(e != f);
+  print(e <= f);
+  print(e >= f);
+  print(e > f);
+  print(e < f);
 }
