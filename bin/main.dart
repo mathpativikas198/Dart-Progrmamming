@@ -1,28 +1,21 @@
 void main() {
-// #Airthmatic Operators
-  var a = 10;
-  var b = 20;
-  var c = 30;
-  var d = 6;
+//Logical Operator
+/*
+true && true = true
+true && false = false
+false && true = false 
+false && false = false
 
-  // print(a + b);
-  // print(c - b);
-  // print(a * b);
-  // print(c / d);
-  // print(a / d);
-  // print(a ~/ d); //this gives only integer value
-  // print(a % d);
+true || true = true
+true || false = true
+false || true = true
+false || false = false 
 
-  //#Prefix and Postfix Increament Operator
+*/
+  var a = 100;
+  var b = 200;
+  var c = 200;
+  var d = 200;
 
-  // Equality and Relational Operator
-  var e = 100;
-  var f = 200;
-
-  print(e == f);
-  print(e != f);
-  print(e <= f);
-  print(e >= f);
-  print(e > f);
-  print(e < f);
+  print((a == b) && (c == d));
 }
