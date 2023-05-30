@@ -17,7 +17,9 @@ void main() {
 
   // Equality and Relational Operator
   var e = 100;
-  var f = 200;
+  var f = 200.80;
+
+  print(f.runtimeType);
 
   print(e == f);
   print(e != f);
